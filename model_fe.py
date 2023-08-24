@@ -10,8 +10,8 @@ import pathlib as pl
 import numpy as np
 from sklearn.utils import shuffle
 from sklearn.model_selection import train_test_split
-# from tensorflow.keras.applications import EfficientNetB0
-# from tensorflow.keras.callbacks import EarlyStopping, ReduceLROnPlateau, TensorBoard, ModelCheckpoint
+from tensorflow.keras.applications import EfficientNetB0
+from tensorflow.keras.callbacks import EarlyStopping, ReduceLROnPlateau, TensorBoard, ModelCheckpoint
 
 from tensorflow.keras.preprocessing.image import load_img, img_to_array
 
