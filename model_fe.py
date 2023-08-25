@@ -31,7 +31,7 @@ def get_category(value):
 # Title
 st.title("Brain Tumor Detection")
 
-loaded_model = tf.keras.models.load_model("MRI_model")
+loaded_model = tf.keras.models.load_model("MRI_model.h5")
 
 # Image upload button
 uploaded_file = st.file_uploader("Choose an image...", type="jpg")
