@@ -1,14 +1,8 @@
 import streamlit as st
 from PIL import Image
-
 # Importing relevant libraris
-import matplotlib.pyplot as plt
-import cv2
 import tensorflow as tf
-import pathlib as pl
 import numpy as np
-from sklearn.utils import shuffle
-from sklearn.model_selection import train_test_split
 from tensorflow.keras.applications import EfficientNetB0
 from tensorflow.keras.callbacks import EarlyStopping, ReduceLROnPlateau, TensorBoard, ModelCheckpoint
 
