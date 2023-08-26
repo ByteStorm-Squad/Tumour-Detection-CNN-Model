@@ -1,0 +1,11 @@
+streamlit
+PIL
+matplotlib.pyplot
+cv2
+tensorflow
+pathlib
+numpy
+sklearn.utils
+sklearn.model_selection
+tensorflow.keras.applications
+tensorflow.keras.callbacks
